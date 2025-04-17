@@ -1,0 +1,239 @@
+<html lang="en" data-kantu="1">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&amp;family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&amp;display=swap"
+    rel="stylesheet">
+  <title>Our Wedding</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .main_body {
+      padding: 20px;
+    }
+
+    .image-background {
+      position: relative;
+      width: 100%;
+      height: 400px;
+      /* Adjust the height of the image background */
+      background-image: url("./Crystalline-photography-1787.jpg");
+      /* Replace 'your-image.jpg' with the path to your image */
+      background-size: cover;
+      background-position: center;
+      overflow: hidden;
+    }
+
+    .image-background::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,
+          0,
+          0,
+          0.5);
+      /* Semi-transparent black overlay */
+    }
+
+    .separator {
+      width: 50%;
+      /* Adjust the width of the separator line */
+      margin: 20px auto;
+      /* Center the separator horizontally and add space around it */
+      border: none;
+      border-top: 3px solid white;
+      /* Change the color and style of the separator line */
+    }
+
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 20px;
+      /* Adjust the left spacing of the content */
+      transform: translateY(-50%);
+      /* background-color: rgb(236, 205, 253); */
+      color: #f6d27f;
+      text-align: center;
+      width: calc(100% - 40px);
+      z-index: 1;
+    }
+
+    h1 {
+      font-size: 45px;
+      margin-bottom: 10px;
+      font-family: "Dancing Script", cursive;
+      /* font-optical-sizing: auto;
+        font-weight: lighter;
+        font-style: normal; */
+    }
+
+    header {
+      text-align: center;
+    }
+
+    h2 {
+      font-family: "Source Code Pro", monospace;
+      font-weight: bold;
+      padding: 20px 0;
+    }
+
+    h5 {
+      font-size: 16px;
+
+      font-family: "Source Code Pro", monospace;
+      font-optical-sizing: auto;
+      font: weight 10px;
+      font-style: normal;
+    }
+
+    .venue-section {
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .venue-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .venue {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      flex: 1 1 300px;
+      max-width: 300px;
+    }
+
+    .main_body {
+      background-color: #b86b3f;
+      padding: 20px;
+    }
+
+    .venue img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      background-color: #3d4a22;
+      color: #fff;
+    }
+
+    .p {
+      line-height: 5%;
+      padding-bottom: 5px;
+    }
+
+    @media screen and (max-width: 600px) {
+      .content {
+        left: 0;
+        width: 100%;
+        padding: 0 20px;
+      }
+
+      h1 {
+        font-size: 25px;
+      }
+
+      h3 {
+        font-size: 14px;
+      }
+
+      /* .venue {
+          /* flex-basis: calc(50% - 20px); 
+        } */
+      .image-background {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        /* Adjust the height of the image background */
+        background-image: url("./Crystalline-photography-1787.jpg");
+        /* Replace 'your-image.jpg' with the path to your image */
+        background: size 70px;
+        ;
+        background-position: center;
+        overflow: hidden;
+      }
+
+      .image-background::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,
+            0,
+            0,
+            0.5);
+        /* Semi-transparent black overlay */
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="image-background">
+    <div class="content">
+      <h1>Aswani and Sarath</h1>
+      <h3 style="color: white">SAVE THE DATE</h3>
+      <h3 style="color: white">WEDDING: 11 MAY 2025 SUNDAY</h3>
+    </div>
+  </div>
+  <div class="main_body">
+    <section class="venue-section">
+      <div class="venue-container">
+        <div class="venue">
+          <h4 style="padding-bottom: 10px">Wedding Ceremony</h4>
+          <p style="
+                text-align: justify;
+                padding-bottom: 5px;
+                padding-top: 5px;
+                font-family: Roboto, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+              ">
+            <b>Venue</b>: VVM NSS Auditorium, Devankulangara, Edappally<br><br>
+            <b>Muhurtham</b>
+            : 12:00 pm to 12:22 pm
+          </p>
+
+          <a href="https://maps.app.goo.gl/EWyhRSCJSU5wSFreA" target="_blank"><img src="./Hall.jpg"
+              alt="Venue Photo"><br>View on Map</a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <p>© 2025 Our Wedding. All rights reserved.</p>
+  </footer>
+
+
+</body>
+
+</html>
